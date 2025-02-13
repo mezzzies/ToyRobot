@@ -1,6 +1,6 @@
 # Toy Robot Simulator
 
-This is a simple toy robot simulator. The robot can be placed on a table, moved around, and report its position and facing direction. The project includes a main script `ToyRobot.py` and a test script `test_ToyRobot.py` using `pytest`.
+This is a simple toy robot simulator. The robot can be placed on a table 5x5, moved around, and report its position and facing direction. The project includes a main script `ToyRobot.py` and a test script `test_ToyRobot.py` using `pytest`.
 
 ## Getting Started
 
