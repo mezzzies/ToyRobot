@@ -1,6 +1,13 @@
 # Toy Robot Simulator
 
-This is a simple toy robot simulator. The robot can be placed on a table 5x5, moved around, and report its position and facing direction. The project includes a main script `ToyRobot.py` and a test script `test_ToyRobot.py` using `pytest`.
+This is a simple toy robot simulator. The robot can be placed on a 5x5 table, moved around, and report its position and facing direction. The project includes a main script `ToyRobot.py` and a test script `test_ToyRobot.py` using `pytest`.
+
+## Usage Time
+
+- **Design**: 0.25 MH
+- **Implementation**: 1-1.5 MH
+- **Testing**: 0.5 MH
+- **Revision**: 0.5 MH
 
 ## Getting Started
 
@@ -14,9 +21,12 @@ This is a simple toy robot simulator. The robot can be placed on a table 5x5, mo
 1. Clone the repository:
    ```sh
    git clone https://github.com/mezzzies/ToyRobot.git
+   ```
 
-Install the required packages:
-$pip install pytest
+2. Install the required packages:
+   ```sh
+   pip install pytest
+   ```
 
 ## How to Run
 
@@ -35,6 +45,8 @@ Enter commands one by one:
 ```
 PLACE 0,0,NORTH
 MOVE
+RIGHT
+MOVE
 REPORT
 ```
 
@@ -52,4 +64,15 @@ To run the tests, use `pytest` or `python -m pytest test_ToyRobot.py`:
 
 ```sh
 pytest test_ToyRobot.py
+```
+
+```
+=================== test session starts ====================
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0
+rootdir: D:\01_Working\06_Programming\Toy_Robot
+collected 25 items
+
+test_ToyRobot.py .........................            [100%]
+
+==================== 25 passed in 0.05s ====================
 ```
