@@ -42,7 +42,6 @@ class Robot:
     def report(self):
         if self.placed:
             report_string = str(self.x) + "," + str(self.y) + "," + str(self.facing)
-            print(report_string)
             return report_string
 
 # DEBUG
@@ -86,7 +85,7 @@ def process_command(robot,text):
             print("Robot is not placed yet")
     elif command == "REPORT":
         if robot.placed:
-            robot.report()
+            print(robot.report())
         else:
             print("Robot is not placed yet")
     else:
